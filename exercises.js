@@ -137,7 +137,7 @@ function isPalindrome(word) {
 }
 
 // You can test any of these in the console like:
-//console.log(greet("Alex"));          // "Hello, Alex!"
+console.log(greet("Alex"));          // "Hello, Alex!"
 // console.log(getGrade(85));           // "B"
 // console.log(sumNumbers(5));          // 15
 // console.log(getLast([10, 20, 30]));  // 30
