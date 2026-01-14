@@ -120,3 +120,48 @@ def get_message(hour):
         return "Good evening!"
     
 print(get_message(16))
+
+# 15.
+
+def count_to(n):
+    for i in range(1, n + 1):
+        print(i)
+   
+count_to(5)
+
+#16.
+def sum_numbers(n):
+    sum = 0
+    for i in range(1, n + 1):
+        sum += i
+    return sum
+
+print(sum_numbers(5))
+
+#17.
+
+def get_first(arr):
+    return arr[0]
+
+print(get_first([10,20,30,40,50]))
+
+#18.
+def get_last(arr):
+    return arr[-1]
+
+print(get_last([10,20,30,40,50]))
+
+#19.
+
+def print_each(names):
+    for name in names:
+        print(name)
+        
+print_each(["adrian","jacob","harry","david"])
+
+#20.
+
+def count_items(items):
+    return len(items)
+
+print(count_items([1,3,4,5,6]))
